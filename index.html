@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head> 
-        <meta charset="UTF-8" />
-        <title>Run Buddy</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-    </head>
+<head>
+  <meta charset="UTF-8" />
+  <title>Run Buddy</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-    <body>
-        <!-- navigation -->
-        <header>
-            <h1>
-                <a href="/">
-                    RUN BUDDY
-                </a>
-            </h1>
-            <nav>
-                <!-- Unordered list element --> 
-                <ul>
-                    <!-- List item element -->
-                    <li>
-                        <!-- Anchor element -->
-                        <a href="#what-we-do">What We Do</a>
-                    </li>
-                    <li>
-                        <a href="#what-you-do">What You Do</a>
-                    </li>
-                    <li>
-                        <a href="#your-trainers">Your Trainers</a>
-                    </li>
-                    <li>
-                        <a href="#reach-out">Reach Out</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!-- hero section -->
-<section class="hero">
-    <div clas="hero-form">
-      <h3>Get Started Today!</h3>
-      <p>Fill out this form and one of our trainers will schedule a consult.</p>
+<body>
+  <!-- navigation -->
+  <header>
+    <h1>
+      <a href="/">
+        RUN BUDDY
+      </a>
+    </h1>
+    <nav>
+      <!-- Unordered list element -->
+      <ul>
+        <!-- List item element-->
+        <li>
+          <!-- Anchor element -->
+          <a href="#what-we-do">What We Do</a>
+        </li>
+        <li>
+          <a href="#what-you-do">What You Do</a>
+        </li>
+        <li>
+          <a href="#your-trainers">Your Trainers</a>
+        </li>
+        <li>
+          <a href="#reach-out">Reach Out</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- hero/jumbotron -->
+  <section class="hero">
+    <div class="hero-form">
+      <h3>Get Started Today</h3>
+      <p>Fill out this form and one of our trainers will schedule a consult</p>
       <form>
         <label for="name">Enter full name:</label>
         <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
@@ -56,10 +56,10 @@
           <label for="trainer-no">No</label>
         </p>
         <p>
-          <label for="checkbox" >
+          <label for="checkbox">
             I acknowledge that I am at least 18 years of age.
           </label>
-          <input type="checkbox" name="age-confirm" id="checkbox" />
+          <input type="checkbox" name="checkpoint1" id="checkbox" />
         </p>
         <button type="submit">
           Get running!
@@ -67,62 +67,65 @@
       </form>
     </div>
   </section>
-  <!-- end hero -->
-       
-        <!-- "what we do" section -->
-        <section id="what-we-do">
-            <h2>What We Do</h2>
-            <p>
-                butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chill wave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggins narwhal Marga Schiltz sustainable Intelligentisia umami deep v craft
-            </p>
-        </section>
 
-        <!-- What You Do Section-->
-        <section id="what-you-do">
-            <h2>What You Do</h2>
+  <!-- "what we do" section -->
+  <section id="what-we-do" class="intro">
+    <h2 class="section-title primary-border">What We Do</h2>
+    <p>
+      butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue
+      Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin
+      fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz
+      sustainable Intelligentsia umami deep v craft
+    </p>
+  </section>
 
-            <div>
-                <!-- insert this img element -->
-                <img src="./assets/images/step-1.svg" alt="" />
-                <h3>Step 1: Fill Out the Form Above.</h3>
-                <p>You're already here, so why not?</p>
-            </div>
+  <!-- "what you do" section -->
+  <section id="what-you-do" class="steps">
+    <h2 class="section-title secondary-border">What You Do</h2>
 
-            <div>
-                <img src="./assets/images/step-2.svg" alt="" />
-                <h3>Step 2: Consult with One of Our Trainers.</h3>
-                <p>Are you here to build muscle, lose weight, or just feel good?</p>
-            </div>
+    <div>
+      <img src="./assets/images/step-1.svg" alt="" />
+      <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
+      <p>You're already here, so why not?</p>
+    </div>
 
-            <div>
-                <img src="./assets/images/step-3.svg" alt="" />
-                <h3>Step 3: Get Running.</h3>
-                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
-            </div>
+    <div>
+      <img src="./assets/images/step-2.svg" alt="" />
+      <h3>Step 2: <span>Consult with One of Our Trainers.</span></h3>
+      <p>Are you here to build muscle, lose weight, or just feel good?</p>
+    </div>
 
-            <div>
-                <img src="./assets/images/step-4.svg" alt="" />
-                <h3>Step 4: See Results.</h3>
-                <p>Bi-weekly checkins with your trainer will keep you focused</p>
-            </div>
+    <div>
+      <img src="./assets/images/step-3.svg" alt="" />
+      <h3>Step 3: <span>Get Running.</span></h3>
+      <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+    </div>
 
-        </section>
+    <div>
+      <img src="./assets/images/step-4.svg" alt="" />
+      <h3>Step 4: <span>See Results.</span></h3>
+      <p>Bi-weekly checkins with your trainer will keep you focused</p>
+    </div>
+  </section>
 
-        <!-- "meet the trainers" section -->
-        <section>
-            <h2>Meet The Trainers</h2>
-        </section>
-        
-        <!-- "reach out" section -->
-        <h2>Reach Out</h2>
+  <!-- "meet the trainers" section -->
+  <section>
+    <h2>Meet The Trainers</h2>
+  </section>
 
-        <!-- footer -->
-        <footer>
-            <h2>❤️ Made with Love by Run Buddy. </h2>
-            <div>
-                <a href="#">Read Our Privacy Policy</a><br />
-                &copy; 2019 Run Buddy, Inc.
-            </div>
-        </footer>
-    </body>
+  <!-- "reach out" section -->
+  <section>
+    <h2>Reach Out</h2>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <h2>❤️ Made with love by Run Buddy.</h2>
+    <div>
+      <a href="#">Read Our Privacy Policy</a><br />
+      &copy; 2019 Run Buddy, Inc.
+    </div>
+  </footer>
+</body>
+
 </html>
