@@ -65,5 +65,14 @@ footer a {
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 60px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
 }
 /* Hero Style End */
