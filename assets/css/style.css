@@ -60,3 +60,10 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 60px;
+}
+/* Hero Style End */
